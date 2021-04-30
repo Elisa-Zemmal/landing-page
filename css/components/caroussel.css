@@ -1,0 +1,46 @@
+
+ .caroussel img {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 4px solid black;
+  } 
+
+
+ .caroussel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 5px;
+	background: white;                                                   
+  overflow: auto;  
+  margin:   50px;               
+}
+
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+.carousel-item {
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    margin-left: 1rem;
+}
+
+p1 {
+  font-size: 25px;
+  right: 190px;
+  position: relative;
+  top: 137px;
+}
+
+ul {
+    margin-top: 100px;
+}

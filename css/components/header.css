@@ -1,0 +1,40 @@
+.header {
+  background-image: url(../../images/header.jpg);
+	text-align: center;
+	background-size: cover;    
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #464646;
+  flex-wrap: auto;
+} 
+
+div {
+  display: block;
+} 
+
+
+.btn-white {
+  color: black;
+  padding: 12px 36px;
+  background-color: white;
+  margin:   400px;
+  display: inline-block;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  background-position: fixed;
+  right: 730px;
+  position: absolute;
+}
+
+.header h3 {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  margin: 30px;
+  margin-top: 300px;
+}
+
+#header {
+    padding: 10px
+  }
